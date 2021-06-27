@@ -1,4 +1,4 @@
-# Caffinate The City
+# Caffeinate The City
 
 ## Description
 The purpose of Caffinate the City is to provide residents and/or tourists to Austin, TX a resource to find locally owned coffee shops without any corporate chains muddying the waters. 
@@ -25,3 +25,16 @@ The website is mobile friendly
       * https://developer.here.com/documentation/maps/3.1.25.0/dev_guide/index.html
     * HERE Geocoding
       * https://developer.here.com/documentation/routing/dev_guide/topics/introduction.html
+
+## Role Responsibilities:
+* Styling (base HTML/CSS)
+  * Noor Alhomsi
+* JavaScript/APIs/jQuery HTML/CSS injection
+  * Geoffrey Wein
+* Reviews Page
+  * Justin Dowdy
+* Contact Page
+  * Jason Gentel
+
+## Gif Showcase of Site:
+>><img src="./assets/images/caffeinate-showcase.gif" width="768" height="768" />
