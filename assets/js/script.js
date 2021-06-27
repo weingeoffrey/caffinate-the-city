@@ -198,8 +198,6 @@ function addInfoBubble(map) {
     ui.addBubble(bubble);
   }, false);
 
-  var coffeeSvg = '<object data="coffee-svgrepo-com.svg" type="image/svg+xml/>';
-
   coffeeShops.forEach(function(shop) {
     addMarkerToGroup(group, {lat: shop.coords.lat, lng: shop.coords.lon},
       '<div><a href="' + shop.Website + '" target="_blank">' + shop.Name + '</a></div>' + 
@@ -592,39 +590,3 @@ $('#btnResetView').on("click", function() {
 $('#addressErrorClose').on("click", function() {
   $('#addressError').removeClass('is-active');
 })
-
-// When the user scrolls down 20px from the top of the document, slide down the navbar
-window.onscroll = function () { scrollFunction() };
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-}
-
-document.addEventListener('DOMContentLoaded', () => {
-
-  // Get all "navbar-burger" elements
-  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
-
-  // Check if there are any navbar burgers
-  if ($navbarBurgers.length > 0) {
-
-    // Add a click event on each of them
-    $navbarBurgers.forEach( el => {
-      el.addEventListener('click', () => {
-
-        // Get the target from the "data-target" attribute
-        const target = el.dataset.target;
-        const $target = document.getElementById(target);
-
-        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-        el.classList.toggle('is-active');
-        $target.classList.toggle('is-active');
-
-      });
-    });
-  }
-});
