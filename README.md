@@ -38,3 +38,7 @@ The website is mobile friendly
 
 ## Gif Showcase of Site:
 >><img src="./assets/images/caffeinate-showcase.gif" width="768" height="768" />
+
+## Repo Link/Live Site
+* Repo: https://github.com/weingeoffrey/caffinate-the-city
+* Live: https://weingeoffrey.github.io/caffinate-the-city/
